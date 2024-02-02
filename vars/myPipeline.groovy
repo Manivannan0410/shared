@@ -1,5 +1,5 @@
 // Jenkins Pipeline script for building and managing a shared library
-def call()
+def call(){
 pipeline {
     agent any
 
@@ -52,4 +52,5 @@ pipeline {
             echo "Shared library pipeline failed!"
         }
     }
+}
 }
