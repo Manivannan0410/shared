@@ -1,4 +1,4 @@
-// Jenkins Pipeline script for building and managing a shared library
+ // Jenkins Pipeline script for building and managing a shared library
 def call(){
 pipeline {
     agent any
