@@ -28,7 +28,7 @@ pipeline {
                 script {
                     sh 'echo "Publishing the shared library..."'
                     // Add commands to publish the library, e.g., pushing to a Nexus repository
-                    sh 'docker build -t mani:v3'
+                    sh 'docker build -t mani:v3 .'
                     sh 'docker images'
                 }
             }
