@@ -17,6 +17,7 @@ pipeline {
                 script {
                     sh 'echo "Building the shared library..."'
                     // Add any build commands here
+                      sh 'npm install'
                 }
             }
         }
